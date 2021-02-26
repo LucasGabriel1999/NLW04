@@ -1,0 +1,19 @@
+.completedChallengesContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin: 3.5rem 0;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #d7d8da;
+
+    font-weight: 500;
+}
+
+.completedChallengesContainer span:first-child{ /*.first-child (só o primeiro componente nesse caso o primeiro span dois dois que eu tenho lá no meu html que está sendo retornado)*/
+    font-size: 1.25rem;
+}
+
+.completedChallengesContainer span:last-child{/*.last-child (ultimo componente lá no html)*/
+    font-size: 1.5rem;
+}
